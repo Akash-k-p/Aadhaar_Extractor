@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aadhaar-extractor
+Version: 0.0.1
+Summary: Detects and extracts the features in a aadhaar card
+Home-page: https://github.com/Akash-k-p/Aadhaar_Extractor.git
+Author: Akash K P
+Author-email: kpakash03@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
