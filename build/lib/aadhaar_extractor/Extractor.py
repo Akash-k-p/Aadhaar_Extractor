@@ -89,10 +89,19 @@ class AadhaarExtractor:
         from ultralytics import YOLO
         import cv2
         import pytesseract
+        ###  specify that pytesseract needs to be explicitly installed  ###
         import logging
+        import os
 
         logging.basicConfig(level=logging.NOTSET)
-        MODEL_PATH = r"best.pt"
+
+        # Get the absolute path of the current file
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Construct the absolute path to the resource file
+        MODEL_PATH = os.path.join(current_dir, 'best.pt')
+
+        # MODEL_PATH = r"best.pt"
 
         def filter_tuples(lst):
         ##### filters the list so that only one instance of each class is present  ########

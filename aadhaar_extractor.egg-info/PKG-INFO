@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: aadhaar-extractor
-Version: 0.0.1
+Name: Aadhaar-extractor
+Version: 0.0.3
 Summary: Detects and extracts the features in a aadhaar card
 Home-page: https://github.com/Akash-k-p/Aadhaar_Extractor.git
 Author: Akash K P
