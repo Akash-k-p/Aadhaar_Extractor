@@ -1,8 +1,12 @@
-# Use to extract details from a aadhaar card
+# Use to extract details from a image of a aadhaar card
 
  Trained using YOLOv8
 
+ [Dataset](https://universe.roboflow.com/akash-k-p-gs9iu/aadhaar-card-details-extraction-3/dataset/7)
+
 Check out the Github [Repo](https://github.com/Akash-k-p/Aadhaar_Extractor/) for more info
+
+
 
 > Note : Requires external installation of tesseract , and setting the environment variable of the same
 
@@ -12,7 +16,7 @@ Check out the Github [Repo](https://github.com/Akash-k-p/Aadhaar_Extractor/) for
 ```
 from Aadhaar_extractor.Extractor import AadhaarExtractor
 
-#create a object of the AadhaarExtractor class by passing the image of the aadhaar card as argument`
+#create a object of the AadhaarExtractor class by passing the image of the aadhaar card as argument
 
 
 obj = AadhaarExtractor("aadhaar.jpg")
@@ -44,5 +48,6 @@ Each field is member of the list(detected field), has four fields in the followi
 
 4. Extracted text from the detected field
 
+**Note:All the data used to train , were publicly available in the internet**
 
-
+***This project is far from complete, and can be made much better, feel free to contribute***
